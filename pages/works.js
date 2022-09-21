@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbUniswapv4 from '../public/images/works/uniswapv4.png'
 import thumbVushop from '../public/images/works/vushop.png'
+import thumbSafetube from '../public/images/works/safetube.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -33,6 +34,17 @@ const Works = () => (
           >
             Ecommerce app with full CRUD capabilities where owners can 
             manage their stores on the go using a headless CMS.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="safetube"
+            title="SafeTube"
+            thumbnail={thumbSafetube}
+          >
+            Lightweight build of YouTube with a minimilistic design 
+            where users are protected from potentially harmful media.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
