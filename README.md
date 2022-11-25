@@ -1,3 +1,3 @@
 # Portfolio 2.0
 
-Portfolio website v2.
+Latest version of my portfolio website.
